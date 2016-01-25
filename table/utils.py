@@ -4,6 +4,7 @@ import time
 
 from django.utils.html import escape
 from django.utils.safestring import mark_safe
+import collections
 
 
 class Accessor(str):
@@ -28,7 +29,7 @@ class Accessor(str):
                 elif isinstance(obj, list) or isinstance(obj, tuple):
                     obj = obj[int(level)]
                 else:
-                    if callable(getattr(obj, level)):
+                    if isinstance(getattr(obj, level), collections.Callable):
                         try:
                             obj = getattr(obj, level)()
                         except KeyError:
@@ -41,7 +42,7 @@ class Accessor(str):
                 if not obj:
                     break
             return obj
-        except Exception, e:
+        except Exception as e:
             if quiet:
                 return ''
             else:
@@ -63,7 +64,7 @@ class AttributesDict(dict):
     def render(self):
         return mark_safe(' '.join([
             '%s="%s"' % (attr_name, escape(attr))
-            for attr_name, attr in self.items()
+            for attr_name, attr in list(self.items())
         ]))
 
 
@@ -72,6 +73,6 @@ def timeit(func):
         ts = time.time()
         result = func(*args, **kwargs)
         te = time.time()
-        print 'func: %r took: %f ms' % (func.__name__, (te - ts) * 1000)
+        print('func: %r took: %f ms' % (func.__name__, (te - ts) * 1000))
         return result
     return wrap
