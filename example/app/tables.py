@@ -22,6 +22,14 @@ class ModelTable(Table):
     class Meta:
         model = Person
 
+class FilterableTable(Table):
+    id = Column(field='id', header='#')
+    name = Column(field='name', header='NAME')
+
+    class Meta:
+        model = Person
+        using_filter_row = True
+
 
 class AjaxTable(Table):
     id = Column(field='id', header='#')
