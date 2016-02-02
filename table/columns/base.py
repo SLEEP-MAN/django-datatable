@@ -14,7 +14,7 @@ class Column(object):
 
     def __init__(self, field=None, header=None, attrs=None, header_attrs=None,
                  header_row_order=0, sortable=True, searchable=True, safe=True,
-                 visible=True, space=True):
+                 visible=True, space=True, filterable=True):
         self.field = field
         self.attrs = attrs or {}
         self.sortable = sortable
@@ -23,6 +23,7 @@ class Column(object):
         self.visible = visible
         self.space = space
         self.header = ColumnHeader(header, header_attrs, header_row_order)
+        self.filterable = filterable
 
         self.instance_order = Column.instance_order
         Column.instance_order += 1
