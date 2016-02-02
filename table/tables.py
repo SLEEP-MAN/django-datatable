@@ -198,7 +198,7 @@ class TableOptions(object):
 
         self.zero_records = getattr(options, 'zero_records', 'No records')
 
-        self.using_filter_row = getattr(options, 'using_filter_row', True)
+        self.using_filter_row = getattr(options, 'using_filter_row', False)
 
 
 class TableMetaClass(type):
