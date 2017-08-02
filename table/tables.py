@@ -9,7 +9,7 @@ from django.db.models.query import QuerySet
 from django.utils.safestring import mark_safe
 from collections import OrderedDict
 from table.columns import Column, BoundColumn, SequenceColumn
-from table.widgets import SearchBox, InfoLabel, Pagination, LengthMenu
+from table.widgets import SearchBox, InfoLabel, Pagination, LengthMenu, ExtButton
 
 
 class BaseTable(object):
