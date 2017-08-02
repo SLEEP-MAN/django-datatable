@@ -1,4 +1,13 @@
+## v0.2.1
+* Fix error about loading ajax data when serving requests with multiple processes in production env.
+
+## v0.2.0
+* Added compatibility with Python 3
+* Make checkboxfield related to object field.
+* Added ImageColumn
+
 ## v0.1.5
+
 * PyPi support
 
 ## v0.1.4
@@ -43,3 +52,11 @@
 ## v0.1.0
 
 First commit for codebase.
+
+## v0.3.0
+
+* Deprecate table option `ext_button`.
+* Make table template inheritable.
+
+## v.0.3.1
+* Fix bug about template context, campatible with Django 1.10 & 1.11.

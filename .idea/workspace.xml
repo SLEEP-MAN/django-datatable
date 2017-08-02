@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f1568482-af88-40c4-a256-a99a1b469b55" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/templates/buttons_table.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/table/columns/imagecolumn.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/table/tests/test_utils.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/__init__.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CHANGELOG.md" afterPath="$PROJECT_DIR$/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/app/migrations/0002_auto_20150328_1648.py" afterPath="$PROJECT_DIR$/example/app/migrations/0002_auto_20150328_1648.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/app/models.py" afterPath="$PROJECT_DIR$/example/app/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/app/tables.py" afterPath="$PROJECT_DIR$/example/app/tables.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/app/views.py" afterPath="$PROJECT_DIR$/example/app/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/settings.py" afterPath="$PROJECT_DIR$/example/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/templates/index.html" afterPath="$PROJECT_DIR$/example/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/urls.py" afterPath="$PROJECT_DIR$/example/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setup.py" afterPath="$PROJECT_DIR$/setup.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/table/columns/calendarcolumn.py" afterPath="$PROJECT_DIR$/table/columns/calendarcolumn.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/table/columns/datetimecolumn.py" afterPath="$PROJECT_DIR$/table/columns/datetimecolumn.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/table/columns/linkcolumn.py" afterPath="$PROJECT_DIR$/table/columns/linkcolumn.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/table/columns/sequencecolumn.py" afterPath="$PROJECT_DIR$/table/columns/sequencecolumn.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/table/tables.py" afterPath="$PROJECT_DIR$/table/tables.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/table/templates/table/table.html" afterPath="$PROJECT_DIR$/table/templates/table/table.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/table/templatetags/table_tags.py" afterPath="$PROJECT_DIR$/table/templatetags/table_tags.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/table/tests/__init__.py" afterPath="$PROJECT_DIR$/table/tests/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/table/tests/test_tables.py" afterPath="$PROJECT_DIR$/table/tests/test_tables.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/table/tests/test_views.py" afterPath="$PROJECT_DIR$/table/tests/test_views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/table/tests/test_widgets.py" afterPath="$PROJECT_DIR$/table/tests/test_widgets.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/table/utils.py" afterPath="$PROJECT_DIR$/table/utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/table/views.py" afterPath="$PROJECT_DIR$/table/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/table/widgets.py" afterPath="$PROJECT_DIR$/table/widgets.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/table/static/css/datatable.bootstrap.css" afterPath="$PROJECT_DIR$/table/static/table/css/datatable.bootstrap.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/table/static/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/table/static/table/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/table/static/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/table/static/table/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/table/static/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/table/static/table/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/table/static/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/table/static/table/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/table/static/images/Sorting icons.psd" afterPath="$PROJECT_DIR$/table/static/table/images/Sorting icons.psd" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/table/static/images/back_disabled.png" afterPath="$PROJECT_DIR$/table/static/table/images/back_disabled.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/table/static/images/back_enabled.png" afterPath="$PROJECT_DIR$/table/static/table/images/back_enabled.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/table/static/images/back_enabled_hover.png" afterPath="$PROJECT_DIR$/table/static/table/images/back_enabled_hover.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/table/static/images/favicon.ico" afterPath="$PROJECT_DIR$/table/static/table/images/favicon.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/table/static/images/forward_disabled.png" afterPath="$PROJECT_DIR$/table/static/table/images/forward_disabled.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/table/static/images/forward_enabled.png" afterPath="$PROJECT_DIR$/table/static/table/images/forward_enabled.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/table/static/images/forward_enabled_hover.png" afterPath="$PROJECT_DIR$/table/static/table/images/forward_enabled_hover.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/table/static/images/sort_asc.png" afterPath="$PROJECT_DIR$/table/static/table/images/sort_asc.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/table/static/images/sort_asc_disabled.png" afterPath="$PROJECT_DIR$/table/static/table/images/sort_asc_disabled.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/table/static/images/sort_both.png" afterPath="$PROJECT_DIR$/table/static/table/images/sort_both.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/table/static/images/sort_desc.png" afterPath="$PROJECT_DIR$/table/static/table/images/sort_desc.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/table/static/images/sort_desc_disabled.png" afterPath="$PROJECT_DIR$/table/static/table/images/sort_desc_disabled.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/table/static/js/bootstrap.dataTables.js" afterPath="$PROJECT_DIR$/table/static/table/js/bootstrap.dataTables.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/table/static/js/dataTables.fixedColumns.min.js" afterPath="$PROJECT_DIR$/table/static/table/js/dataTables.fixedColumns.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/table/static/js/jquery.browser.min.js" afterPath="$PROJECT_DIR$/table/static/table/js/jquery.browser.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/table/static/js/jquery.dataTables.min.js" afterPath="$PROJECT_DIR$/table/static/table/js/jquery.dataTables.min.js" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>table_options</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="django-datatable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="django-datatable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="django-datatable" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="django-datatable" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="django-datatable" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="django-datatable" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="django-datatable" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="django-datatable" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="django-datatable" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f1568482-af88-40c4-a256-a99a1b469b55" name="Default" comment="" />
+      <created>1501714586370</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1501714586370</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+</project>

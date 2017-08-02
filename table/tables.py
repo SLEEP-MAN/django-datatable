@@ -1,12 +1,15 @@
 #!/usr/bin/env python
 # coding: utf-8
+from __future__ import unicode_literals
 import copy
+from collections import OrderedDict
+from hashlib import md5
 from uuid import uuid4
 from django.db.models.query import QuerySet
 from django.utils.safestring import mark_safe
 from collections import OrderedDict
-from .columns import Column, BoundColumn, SequenceColumn
-from .widgets import SearchBox, InfoLabel, Pagination, LengthMenu, ExtButton
+from table.columns import Column, BoundColumn, SequenceColumn
+from table.widgets import SearchBox, InfoLabel, Pagination, LengthMenu
 
 
 class BaseTable(object):
@@ -53,7 +56,7 @@ class BaseTable(object):
         for column in self.columns:
             filterable_rows.append(column.filterable)
         return filterable_rows
-    
+
 
 
 class TableData(object):
@@ -197,6 +200,9 @@ class TableOptions(object):
         self.ext_button_context = getattr(options, 'ext_button_context', None)
 
         self.zero_records = getattr(options, 'zero_records', u'No records')
+        self.template_name = getattr(options, 'template_name', None)
+        self.theme_css_file = getattr(options, 'theme_css_file', 'table/css/datatable.bootstrap.css')
+        self.theme_js_file = getattr(options, 'theme_js_file', 'table/js/bootstrap.dataTables.js')
         self.using_filter_row = getattr(options, 'using_filter_row', False)
 
 
@@ -232,7 +238,8 @@ class TableMetaClass(type):
         # For ajax data source, store columns into global hash map with
         # unique token key. So that, columns can be get to construct data
         # on views layer.
-        token = uuid4().hex
+        token = md5(name.encode('utf-8')).hexdigest()
+
         if opts.ajax:
             TableDataMap.register(token, opts.model, copy.deepcopy(base_columns))
 
@@ -242,4 +249,4 @@ class TableMetaClass(type):
         return super(TableMetaClass, cls).__new__(cls, name, bases, attrs)
 
 
-Table = TableMetaClass('Table', (BaseTable,), {})
+Table = TableMetaClass(str('Table'), (BaseTable,), {})

@@ -2,13 +2,18 @@
 # coding: utf-8
 from __future__ import unicode_literals
 import json
+import django
 
 from django.test import Client, TestCase
-from django.core.urlresolvers import reverse
 
-from table.models import Person
-from table.columns import Column
+if django.VERSION >= (1, 10):
+    from django.urls import reverse
+else:
+    from django.core.urlresolvers import reverse
+
 from table import Table
+from table.columns import Column
+from table.models import Person
 
 
 class TestTable(Table):
