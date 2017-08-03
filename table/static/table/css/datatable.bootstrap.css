@@ -52,6 +52,9 @@ table.table {
 	margin-top: 6px !important;
 	margin-bottom: 6px !important;
 	max-width: none !important;
+	table-layout: fixed;
+    width: 100%;
+    word-break: break-all;
 }
 
 table.table thead .sorting,

@@ -130,7 +130,7 @@ $(document).ready(function() {
             r.find('th[data-is_filterable="1"]').each(function(){
                 $(this).css('padding', 8);
                 var title = $(this).text();
-                $(this).html( '<div class="form-group"><input class="form-control" type="text" placeholder="Search '+title+'" /></div>' );
+                $(this).html( '<div><input style="width: 100%;" type="text" placeholder="Search '+title+'" /></div>' );
             });
 
             $('#{{ table.opts.id }} thead').append(r);
